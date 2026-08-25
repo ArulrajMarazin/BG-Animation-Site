@@ -1,5 +1,7 @@
 const bgFrame = document.getElementById("bgFrames");
 
+console.log(bgFrame);
+
 const totalFrames = 190;
 
 window.addEventListener("scroll", () =>{
