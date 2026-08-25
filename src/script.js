@@ -10,5 +10,5 @@ window.addEventListener("scroll", () =>{
     const progress = scrollTop / maxScroll;
     const frameIndex = Math.floor(progress * (totalFrames - 1));
     const frameNumber = String(frameIndex + 1).padStart(3, "0");
-    bgFrame.src = `./frames/frame_${frameNumber}.png`;
+    bgFrame.src = `./frames/converted/frame_${frameNumber}_result.webp`;
 });
